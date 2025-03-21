@@ -7,3 +7,5 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+// This jsx or js file are injected in index.html directly ->Vite
