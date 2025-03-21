@@ -9,3 +9,4 @@ createRoot(document.getElementById('root')).render(
 )
 
 // This jsx or js file are injected in index.html directly ->Vite
+// Naming convention of function & file is only with first letter capital
