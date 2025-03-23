@@ -15,6 +15,24 @@ function App() {
 
     if(counter < 20){
       setCounter(counter+1);
+
+      // Now comes to an **Interview** question
+
+      // If we do 4 set of counter so after pressing button it is increase by 1 or 4 ?
+
+      // setCounter(counter+1);
+      // setCounter(counter+1);
+      // setCounter(counter+1);
+      // setCounter(counter+1);
+
+      // Ans - Is is inc. by only one bcz these 4 counter doing same thing.
+      //       if we want to incr. by 4 so we have to write in this particular way
+
+      // setCounter( (prevCounter)=> prevCounter+1 ); // Ya back of the game setCounter takes callback fn
+      // setCounter( (prevCounter)=> prevCounter+1 );
+      // setCounter( (prevCounter)=> prevCounter+1 );
+      // setCounter( (prevCounter)=> prevCounter+1 );
+
     }
   }
 
